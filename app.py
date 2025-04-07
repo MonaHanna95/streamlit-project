@@ -8,3 +8,6 @@ df = pd.DataFrame({
 st.dataframe(df)
 data = pd.DataFrame(np.random.randn(20, 3), columns=["a", "b", "c"])
 st.line_chart(data)
+data = pd.DataFrame(np.random.randn(10, 2), columns=["x", "y"])
+st.area_chart(data)
+
